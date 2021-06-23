@@ -17,5 +17,5 @@ Point your browser to ``` localhost:8000 ``` and you are good to go.
 
 #### Cleaning
 
-Just run ``` docker-compose down ````
+Just run ``` docker-compose down ```
 
