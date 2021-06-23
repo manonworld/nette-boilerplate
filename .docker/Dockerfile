@@ -1,4 +1,4 @@
-FROM php:8.1.0alpha1-zts
+FROM php:8-zts
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 
