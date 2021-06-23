@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  app:
+    container_name: nette_app
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./app:/var/www/html
+    tty: true
+    build:
+      context: ./
+      dockerfile: ./.docker/Dockerfile
+    
